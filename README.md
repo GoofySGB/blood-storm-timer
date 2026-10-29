@@ -1,6 +1,6 @@
 # Blood Storm Timer
 
-An unofficial browser-based Division 2 weather timer. No build step or dependencies required.
+An unofficial browser-based Division 2 weather timer. Runs directly in desktop and mobile browsers, including Chrome and Safari on iPhone. No download, installation, build step, or dependencies required.
 
 ## Cycle
 
@@ -10,7 +10,13 @@ An unofficial browser-based Division 2 weather timer. No build step or dependenc
 
 The main clock counts downtime and then the full rain period. The phase display counts Heavy Storm and Blood Storm only during rain.
 
-## Run
+## Run from GitHub Pages
+
+In the repository, open **Settings → Pages**, select **Deploy from a branch**, then choose **main** and **/(root)**. GitHub Pages must be available for the repository’s visibility and account plan. The site uses relative asset paths, so it works under the repository URL.
+
+Each visitor gets their own independent timer and browser-saved settings. Keep the page open and device awake for alerts.
+
+## Run locally
 
 Open `index.html` in a browser, or serve this folder with any static web server:
 
